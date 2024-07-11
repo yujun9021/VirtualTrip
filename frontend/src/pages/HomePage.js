@@ -1,13 +1,13 @@
 import React from 'react';
-import UploadForm from '../components/UploadForm';
+//import './HomePage.css';
 
 const HomePage = () => {
-    return (
-        <div>
-            <h1>Home Page</h1>
-            <UploadForm />
-        </div>
-    );
+  return (
+    <div className="homepage">
+      <h1>Welcome to My Homepage</h1>
+      <p>This is the first page you see when you visit our site.</p>
+    </div>
+  );
 };
 
 export default HomePage;
